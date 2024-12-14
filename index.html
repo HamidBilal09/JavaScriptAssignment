@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <form >
+          <label for="birth-year">Enter your birth year:</label>
+          <input type="number" id="getValue" placeholder="Enter your value" required>
+        
+          <div class="button">
+
+              <button onclick="calculateAge()">Calculate Age</button>
+              <button onclick="area()">Calculates the area </button>
+              <button onclick="circleArea()">Calculates the circle area </button>
+              <button onclick="cubeArea()">Calculates the Cube area </button>
+              <button onclick="totalMinut()">Find Total Minutes</button>
+              <button onclick="calPercentage()">Calculate Percentage</button>
+
+            </div>
+        </form>
+        <p id="result"></p>
+
+      </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
